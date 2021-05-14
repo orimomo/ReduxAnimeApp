@@ -8,8 +8,7 @@
 import Foundation
 
 func appReducer(_ state: AppState, _ action: Action) -> AppState {
-
     var state = state
-    state.anime = animeReducer(state.anime, action: action)
+    state.animeState = animeReducer(state.animeState, action: action)
     return state
 }

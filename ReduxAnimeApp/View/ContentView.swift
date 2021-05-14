@@ -23,7 +23,7 @@ struct ContentView: View {
     }
 
     var body: some View {
-        let props = map(state: store.state.anime)
+        let props = map(state: store.state.animeState)
 
         NavigationView {
             List(props.animes, id: \.id) { anime in

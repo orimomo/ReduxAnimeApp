@@ -15,7 +15,7 @@ typealias Middleware<StoreState: ReduxState> = (StoreState, Action, @escaping Di
 protocol ReduxState { }
 
 struct AppState: ReduxState {
-    var anime = AnimeState()
+    var animeState = AnimeState()
 }
 
 struct AnimeState: ReduxState {
