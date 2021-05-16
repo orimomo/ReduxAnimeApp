@@ -1,8 +1,8 @@
 # ReduxAnimeApp
 * Redux + SwiftUIで作った、今期のアニメが確認できるアプリ
 
-<img width="700" alt="スクリーンショット 2021-05-06 14 20 23" src="https://user-images.githubusercontent.com/12453846/117245710-3a27e880-ae76-11eb-8eb0-311051e2d57c.png">
-<img width="700" alt="スクリーンショット 2021-05-06 15 18 47" src="https://user-images.githubusercontent.com/12453846/117250627-73fced00-ae7e-11eb-885f-da7e5b128449.png">
+<img width="700" alt="スクリーンショット 2021-05-13 17 39 04" src="https://user-images.githubusercontent.com/12453846/118385089-f5a30680-b646-11eb-96a5-c1ef9416b1ad.png">
+<img width="700" alt="スクリーンショット 2021-05-13 21 20 24" src="https://user-images.githubusercontent.com/12453846/118385091-f76cca00-b646-11eb-87f0-723ceeb04bc9.png">
 
 ## 環境
 * macOS Big Sur バージョン 11.3
