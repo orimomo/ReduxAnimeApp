@@ -18,7 +18,7 @@ struct ContentView: View {
 
     private func map(state: AnimeState) -> Props {
         Props(animes: state.animes, fetchAnimes: {
-            store.dispatch(action: fetchAnimes())
+            store.dispatch(action: FetchAnimes())
         })
     }
 
@@ -42,7 +42,7 @@ struct ContentView: View {
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        let store = Store(reducer: appReducer, state: AppState(), middlewares: [AnimeMiddleware()])
+        let store = Store(reducer: appReducer, state: AppState(), middlewares: [animeMiddleware()])
         return ContentView().environmentObject(store)
     }
 }

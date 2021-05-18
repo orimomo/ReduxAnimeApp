@@ -11,7 +11,7 @@ import SwiftUI
 struct ReduxAnimeAppApp: App {
     var body: some Scene {
 
-        let store = Store(reducer: appReducer, state: AppState(), middlewares: [AnimeMiddleware()])
+        let store = Store(reducer: appReducer, state: AppState(), middlewares: [animeMiddleware()])
 
         WindowGroup {
             ContentView().environmentObject(store)

@@ -11,7 +11,7 @@ func animeReducer(_ state: AnimeState, action: Action) -> AnimeState {
     var state = state
 
     switch action {
-    case let action as setAnimes:
+    case let action as SetAnimes:
         state.animes = action.animes
     default:
         break

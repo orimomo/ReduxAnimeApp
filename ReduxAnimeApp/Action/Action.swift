@@ -9,8 +9,8 @@ import Foundation
 
 protocol Action { }
 
-struct fetchAnimes: Action { }
+struct FetchAnimes: Action { }
 
-struct setAnimes: Action {
+struct SetAnimes: Action {
     let animes: [Anime]
 }

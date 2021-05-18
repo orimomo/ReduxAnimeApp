@@ -7,15 +7,15 @@
 
 import Foundation
 
-func AnimeMiddleware() -> Middleware<AppState> {
+func animeMiddleware() -> Middleware<AppState> {
     return { state, action, dispatch in
         switch action {
-        case _ as fetchAnimes:
+        case _ as FetchAnimes:
             AnimeService().fetchAnimes { result in
                 switch result {
                 case .success(let animes):
                     if let animes = animes {
-                        dispatch(setAnimes(animes: animes))
+                        dispatch(SetAnimes(animes: animes))
                     }
                 case .failure(let error):
                     print(error.localizedDescription)
