@@ -2,7 +2,7 @@
 * Redux + SwiftUIで作った、今期のアニメが確認できるアプリ
 
 <img width="700" alt="スクリーンショット 2021-05-13 17 39 04" src="https://user-images.githubusercontent.com/12453846/118385089-f5a30680-b646-11eb-96a5-c1ef9416b1ad.png">
-<img width="700" alt="スクリーンショット 2021-05-13 21 20 24" src="https://user-images.githubusercontent.com/12453846/118385091-f76cca00-b646-11eb-87f0-723ceeb04bc9.png">
+<img width="700" alt="スクリーンショット 2021-05-13 21 20 24" src="https://user-images.githubusercontent.com/12453846/118595450-0e95ee00-b7e6-11eb-9414-0f90fc8215cf.png">
 
 ## 参考
 [Composable SwiftUI Architecture Using Redux | Udemy](https://www.udemy.com/course/composable-swiftui-architecture-using-redux/)
